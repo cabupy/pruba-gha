@@ -1,4 +1,4 @@
-name: pushToDO
+name: push-develop-ToDO
 on: 
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 env:
   REGISTRY: "registry.digitalocean.com/vamyalsa"
   #IMAGE_NAME: ${{ github.repository }}
-  IMAGE_NAME: "pruba-gha"
+  IMAGE_NAME: "pruba-gha-develop"
   GITHUB_SHA: ${{ github.sha }}
   VERSION: "latest"
 jobs:
